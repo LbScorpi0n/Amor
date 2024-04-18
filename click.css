@@ -1,0 +1,16 @@
+.btn{
+    padding: 15px;
+    width: 120px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+
+}

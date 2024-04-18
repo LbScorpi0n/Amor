@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi amor</title>
+    <link rel="stylesheet" href="./style.css">.
+    <link rel="stylesheet" href="click.css">
+</head>
+<body>
+    <a class="btn" href="file:///C:/Users/Carlos%20Mena/Desktop/freelancer/css/htmls/corazon.html" target="_blank">Click</a>
+    <div class="padre">
+    
+    <h2>Lea la carta antes de dar click</h2>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querida Nicolle.</strong>
+                        <p>
+                           Amor no tengo dinero suficiente como para darle un detalle mas encantador pero si le doy esta carta para expresarle y siempre recordarle
+                           lo mucho que la amo es muy especial para mi y quiero que este en cada dia de mi vida asi como esta en cada momento en mi corazon es lo mas 
+                           valioso que tengo LA AMO CON TODO MI CORAZON
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="heart"></div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script> 
+   </div>
+</body>
+</html>
